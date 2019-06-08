@@ -20,9 +20,8 @@ The API will be able to encode and decode the star data.
 The API will allow be able to submit the Star data.
 The API will allow lookup of Stars by hash, wallet address, and height.
 ```
-## Framework used
 
-Express.js
+
 
 ## Getting started
 
@@ -31,9 +30,11 @@ Open a command prompt or shell terminal after install node.js and execute:
 ```
 npm install
 ```
-
-## Testing
+## Run
 
 ```
-npm test
+node index.js
+```
+
+
 ```
