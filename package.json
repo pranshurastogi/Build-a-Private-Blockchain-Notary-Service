@@ -1,33 +1,20 @@
 {
-  "name": "Project4-Udacity-Rastogi",
+  "name": "project_4",
   "version": "1.0.0",
   "description": "Build a Private Blockchain Notary Service",
-  "main": "index.js",
-  "keywords": [
-    "blockchain",
-    "udacity-nanodegree-blockchain"
-  ],
-  "author": "Prasnhu Rastogi",
-  "license": "MIT",
+  "main": "app.js",
   "scripts": {
-    "test": "ava --verbose test/index.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Pranshu",
+  "license": "ISC",
   "dependencies": {
+    "bitcoinjs-lib": "^4.0.2",
     "bitcoinjs-message": "^2.0.0",
-    "compression": "^1.7.3",
+    "body-parser": "^1.18.3",
     "crypto-js": "^3.1.9-1",
-    "express": "^4.16.3",
+    "express": "^4.16.4",
+    "joi": "^14.0.4",
     "level": "^4.0.0"
-  },
-  "devDependencies": {
-    "ava": "0.25.0",
-    "bitcoinjs-lib": "2.3.0",
-    "eslint": "^5.5.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "supertest": "^3.2.0"
   }
 }
